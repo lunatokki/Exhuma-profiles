@@ -15,7 +15,7 @@
 67C:\Users\user\Exhuma-profiles\node_modules\csso\lib\clean\Atrule.js133558517355384840 0
 65C:\Users\user\Exhuma-profiles\node_modules\ordered-binary\LICENSE133558517344789957 0
 107C:\Users\user\Exhuma-profiles\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\walker\index.js133558517356622306 0
-42C:\Users\user\Exhuma-profiles\package.json133558530431099321 0
+42C:\Users\user\Exhuma-profiles\package.json133558545984214386 0
 68C:\Users\user\Exhuma-profiles\node_modules\ajv\lib\dotjs\required.js133558530417440242 0
 51C:\Users\user\Exhuma-profiles\node_modules\bindings133558530405227585 1
 68C:\Users\user\Exhuma-profiles\node_modules\svgo\plugins\prefixIds.js133558517355815191 0
