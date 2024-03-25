@@ -1,0 +1,119 @@
+html {
+  --color-black: #1A1C1B;
+  --color-green: #D6EAE1;
+  --color-beige: #FBF3E6;
+  --color-white: #FFF;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-green);
+  z-index: 1;
+  position: relative;
+}
+
+body::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.3;
+  z-index: -1;
+  background: url(images/poster4.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header {
+  font-family: "Hahmlet", serif;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2;
+  display: block;
+  justify-content: center;
+  color: var(--color-black);
+}
+
+header a {
+  font-family: "Song Myung", serif;
+  color: var(--color-black);
+  font-size: 80px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+header p {
+  font-style: normal;
+}
+
+header input {
+  font-family: "Hahmlet", serif;
+  border: 5px solid var(--color-beige);
+  border-radius: 10em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header input:focus {
+  outline: none;
+}
+
+main {
+  font-family: "Hahmlet", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.profiles {
+  display: flex;
+}
+
+.profile {
+  text-align: center;
+  margin: 2em 0;
+  padding: 0 10px;
+}
+
+.profile h3 {
+  font-size: 20px;
+}
+
+.profile img {
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.load-more-btn {
+  font-family: "Hahmlet", serif;
+  font-size: 12px;
+  padding: 10px 20px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-more-btn:hover {
+  background-color: var(--color-beige);
+  color: var(--color-black);
+}
+
+@media (max-width: 1150px) {
+  .profiles {
+    display: block;
+  }
+}
+
+footer {
+  font-family: "Hahmlet", serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
